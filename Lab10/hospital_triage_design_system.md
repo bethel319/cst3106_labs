@@ -9,10 +9,6 @@
   - **Subheadings**: Semi-Bold (600)
   - **Body Text**: Regular (400)
 
-### Visual Examples
-![Heading Font Example](assets/heading-font-example.png)  
-![Body Font Example](assets/body-font-example.png)
-
 ### Rationale
 These fonts provide:
 - High readability across all devices.
@@ -34,9 +30,6 @@ These fonts provide:
    - Provides a neutral background.
 5. **Text Colour**: `#333333` (Dark Gray)  
    - Ensures high contrast for readability.
-
-### Visual Representation
-![Colour Palette](assets/colour-palette.png)
 
 ### Rationale
 - **Primary Colour**: Establishes trust and aligns with healthcare themes.
@@ -79,10 +72,16 @@ These fonts provide:
 
 ### Wireframes
 #### User Page
-![User Page Wireframe](assets/user-page-wireframe.png)
+- **Header**: Includes the app title and a role selector dropdown.
+- **Main Section**: Contains the patient form to check wait times.
+- **Footer**: Displays copyright information.
 
 #### Admin Page
-![Admin Page Wireframe](assets/admin-page-wireframe.png)
+- **Header**: Includes the app title and a logout button.
+- **Main Section**:
+  - **Patient Table**: Displays patient information (code, name, severity, wait time, arrival time).
+  - **Add Patient Form**: Allows administrators to add new patients.
+  - **Refresh Button**: Reloads the patient queue.
 
 ### Navigation Flow
 1. **Login Screen**: Redirects users/admins to respective dashboards.
@@ -111,13 +110,4 @@ These fonts provide:
 ## Deliverables
 
 - **Markdown File**: Includes all design details.
-- **Visual Aids**: Screenshots and wireframes integrated into the documentation.
-
----
-
-## Submission Instructions
-
-- **Team Members**: [Your Name], [Collaborator's Name, if applicable]
-- **GitHub Repository Link**: [Insert GitHub Link]
-- **Submission Path**: Submit the GitHub link to Brightspace under "Lab 10: Hospital Triage Design System".
 
