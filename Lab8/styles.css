@@ -1,0 +1,41 @@
+/* Center the dice container */
+#dice-container {
+    display: flex; /* Align children in a horizontal row */
+    justify-content: center; /* Center the dice horizontally */
+    margin: 20px; /* Add space around the container */
+}
+
+/* Style for the dice */
+.die {
+    width: 100px; /* Dice width */
+    height: 100px; /* Dice height */
+    background: #fff; /* White background for dice */
+    border: 2px solid #000; /* Black border */
+    border-radius: 10px; /* Rounded corners */
+    display: grid; /* Grid layout for positioning dots */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-rows: repeat(3, 1fr); /* 3 equal rows */
+}
+
+/* Style for the dots on the dice */
+.dot {
+    width: 20px; /* Dot width */
+    height: 20px; /* Dot height */
+    background: black; /* Black dots */
+    border-radius: 50%; /* Circular shape */
+    margin: auto; /* Center dots inside the grid cells */
+    visibility: hidden; /* Hide all dots by default */
+}
+
+/* Class for the rolling animation */
+.rolling {
+    animation: shake 0.8s; /* Apply the shake animation for 0.8 seconds */
+}
+
+/* Keyframes for shake animation */
+@keyframes shake {
+    0%, 100% { transform: rotate(0deg); } /* Start and end with no rotation */
+    25% { transform: rotate(10deg); } /* Tilt 10 degrees clockwise */
+    50% { transform: rotate(-10deg); } /* Tilt 10 degrees counterclockwise */
+    75% { transform: rotate(10deg); } /* Tilt 10 degrees clockwise again */
+}
