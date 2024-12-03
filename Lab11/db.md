@@ -34,4 +34,4 @@
 - A **Room** can have one assigned **Patient** or remain unoccupied.
 
 ## 3. Database Schema Diagram
-![Database Schema](cst3106_labs/Lab11/hospital_triage_erd.png)
+![Database Schema](hospital_triage_erd.png)
